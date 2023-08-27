@@ -188,7 +188,7 @@ The lab offered an invaluable hands-on experience, helping to demystify the ofte
 
 ### Real-World Applicability
 
-The skills and knowledge gleaned from this lab extend far beyond its experimental confines. These competencies are highly transferable to real-world scenarios, where Active Directory is a cornerstone for organizational IT infrastructures. The automation aspects, particularly, equip you with the capability to manage large-scale environments effectively.
+The skills and knowledge gained from this lab extend far beyond its experimental confines. These competencies are highly transferable to real-world scenarios, where Active Directory is a cornerstone for organizational IT infrastructures. The automation aspects, particularly, equip you with the capability to manage large-scale environments effectively.
 
 ### Future Exploration
 
