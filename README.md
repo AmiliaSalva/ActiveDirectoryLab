@@ -29,16 +29,26 @@ During this lab we will:
 
 ## Installation
 
-### Step 1: Create Virtual Machines in VirtualBox
+### Create Virtual Machines in VirtualBox
 
 - Open Oracle VirtualBox and click "New".
 - Name the first machine as "DC" and select Microsoft Windows as the type and Windows (64-bit) as the version.
 - Assign at least 2 GB of RAM and create a new virtual hard disk of at least 50 GB.
 - Repeat the process for our Windows 10 machine and name it "CLIENT".
   
-### Step 2: Install Operating Systems
+### Laying Down the Operating Systems and Configuring NICs
 
-- 
+After attaching the ISO files to their respective VMs, I initiated the installation process. The on-screen instructions are generally straightforward, leading to a successful installation of both operating systems.
+
+In addition, for our Domain Controller, it's imperative to configure dual Network Interface Cards (NICs) for effective network management. Here's how I set them up
+
+- **NIC for Open Internet:** The first NIC is configured to use Network Address Translation (NAT), enabling our Domain Controller to connect to the open internet.
+  
+- **NIC for Internal Network:** The second NIC is allocated exclusively to our internal virtual network, ensuring isolated communication within our simulated environment.
+
+This dual NIC setup equips the Domain Controller with the network versatility needed for real-world applications, aligning perfectly with our lab's objectives. 
+
+By doing so, we've established a secure yet flexible network topology, indispensable for our Active Directory Lab.
 
 
 
