@@ -26,6 +26,7 @@ During this lab we will:
 
 - Oracle VirtualBox
 - ISO Files for Windows Server 2019 and Windows 10
+- Powershell
 
 ## Installation
 
@@ -35,7 +36,21 @@ During this lab we will:
 - Name the first machine as "DC" and select Microsoft Windows as the type and Windows (64-bit) as the version.
 - Assign at least 2 GB of RAM and create a new virtual hard disk of at least 50 GB.
 - Repeat the process for our Windows 10 machine and name it "CLIENT".
+
+### Installing the Operating Systems and Initial Setup
+
+Upon attaching the ISO files to their respective VMs, I initiated the installations. Windows Server 2019 required additional attention during setup to ensure proper administrative access. Here are the specifics:
+
+- **Install Windows Server 2019:** Follow the on-screen instructions until you reach the account setup stage.
   
+  ![IMG_1735](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/9ddc81f9-b45e-4b8c-ba31-9aa044cf92ba)
+  
+- **Create an Admin Account:** As part of the installation, you'll be prompted to create an administrator account. Here, I provided a username and a strong, unique password for enhanced security. This account will have elevated permissions, so it's crucial to protect it adequately.
+
+  ![IMG_1737](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/67547c2b-797c-4ca2-b4d1-b1a71897ad13)
+
+  ![IMG_1739](https://github.com/AmiliaSalva/ActiveDirectoryLab/assets/132176058/4d16f5ae-3b6c-4ca8-be5a-ff8476ba66b4)
+
 ### Laying Down the Operating Systems and Configuring NICs
 
 After attaching the ISO files to their respective VMs, I initiated the installation process. The on-screen instructions are generally straightforward, leading to a successful installation of both operating systems.
